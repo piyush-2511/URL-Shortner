@@ -47,7 +47,7 @@ This is a simple URL Shortener application built using **Node.js** with the **Ex
 ## Folder Structure
 ```
 url-shortener/
-│-- public/         # Static files (CSS, JS, Images)
+|-- config/         #Database Configuration
 │-- views/          # EJS templates for rendering UI
 │-- routes/         # Express routes
 │-- models/         # Database models (if using MongoDB)
