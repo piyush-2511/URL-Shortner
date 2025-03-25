@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f7f9fc;
+      color: #333;
+      text-align: center;
+    }
+    .container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      margin-top: 50px;
+    }
+    h1 {
+      color: #e74c3c;
+    }
+    p {
+      font-size: 18px;
+      margin: 20px 0;
+    }
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Something went wrong</h1>
+    <p><%= message || 'An unexpected error occurred.' %></p>
+    <p><a href="/url">Go back to URL Shortener</a></p>
+  </div>
+</body>
+</html>
